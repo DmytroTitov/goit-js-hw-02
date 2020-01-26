@@ -40,10 +40,10 @@ while (true) {
   }
 
   numbers.push(input);
+}
 
-  for (const number of numbers) {
-    total += number;
-  }
+for (const number of numbers) {
+  total += number;
 }
 
 alert(`Общая сумма чисел равна ${total}`);
